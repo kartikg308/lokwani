@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934687180973",
+    "project_id": "lokwani-v3-alpha",
+    "storage_bucket": "lokwani-v3-alpha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934687180973:android:6a8944ededc86bbe4c9e24",
+        "android_client_info": {
+          "package_name": "com.example.lokwani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934687180973-269u2v39jfitjvgdsp47qbin48rjlpim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkW96tsZz4ACUTPkGNEHRmxi1PqGDJ7Wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934687180973-269u2v39jfitjvgdsp47qbin48rjlpim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

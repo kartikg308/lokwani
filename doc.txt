@@ -1,0 +1,20 @@
+Home Screen
+Tabs (Dynamic)
+-- 1st tab: lokwani--2nd, 3rd.... tabs (api)
+Advertisement Banner (carausal- clickable)
+Latest News (10 total item)
+--- 3 big + ad + 4 small + ad + 3 big
+ Categories card
+General News(Unlimited)
+---3 Big + ad + 4 small + ad + 3 big
+
+
+
+
+
+Latest News: http://admin.lokwani.in/api/latestrandomnews
+Top tabs: https://admin.lokwani.in/api/rsscategories
+General News: https://admin.lokwani.in/api/general-news
+ad Banners: https://admin.lokwani.in/api/advertisements
+categories: https://admin.lokwani.in/api/categories
+gallery: https://admin.lokwani.in/api/gallery-images
