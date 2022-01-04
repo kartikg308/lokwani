@@ -83,92 +83,94 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       drawer: Drawer(
-        child: Column(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(5),
-              child: const Center(
-                child: Text('Icon'),
-              ),
-            ),
-            ListTile(
-              onTap: () {},
-              leading: Container(
-                height: 40,
-                width: 10,
-                color: Colors.red,
-              ),
-              title: const Text(
-                'Lokwani',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+        child: SafeArea(
+          child: Column(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(5),
+                child: const Center(
+                  child: Text('Icon'),
                 ),
               ),
-            ),
-            ListTile(
-              onTap: () {},
-              leading: Container(
-                height: 40,
-                width: 10,
-                color: Colors.red,
-              ),
-              title: const Text(
-                'About Us',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              ListTile(
+                onTap: () {},
+                leading: Container(
+                  height: 40,
+                  width: 10,
+                  color: Colors.red,
+                ),
+                title: const Text(
+                  'Lokwani',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
-            ListTile(
-              onTap: () {},
-              leading: Container(
-                height: 40,
-                width: 10,
-                color: Colors.red,
-              ),
-              title: const Text(
-                'Reporter Login',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              ListTile(
+                onTap: () {},
+                leading: Container(
+                  height: 40,
+                  width: 10,
+                  color: Colors.red,
+                ),
+                title: const Text(
+                  'About Us',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
-            ListTile(
-              onTap: () {
-                Get.to(() => const Gallery());
-              },
-              leading: Container(
-                height: 40,
-                width: 10,
-                color: Colors.red,
-              ),
-              title: const Text(
-                'Gallery',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              ListTile(
+                onTap: () {},
+                leading: Container(
+                  height: 40,
+                  width: 10,
+                  color: Colors.red,
+                ),
+                title: const Text(
+                  'Reporter Login',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
-            ListTile(
-              onTap: () {},
-              leading: Container(
-                height: 40,
-                width: 10,
-                color: Colors.red,
-              ),
-              title: const Text(
-                'Settings',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              ListTile(
+                onTap: () {
+                  Get.to(() => const Gallery());
+                },
+                leading: Container(
+                  height: 40,
+                  width: 10,
+                  color: Colors.red,
+                ),
+                title: const Text(
+                  'Gallery',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
-          ],
+              ListTile(
+                onTap: () {},
+                leading: Container(
+                  height: 40,
+                  width: 10,
+                  color: Colors.red,
+                ),
+                title: const Text(
+                  'Settings',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
       body: widgets.elementAt(_currentIndex),

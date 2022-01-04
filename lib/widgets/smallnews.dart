@@ -88,6 +88,7 @@ class _SmallNewsCardState extends State<SmallNewsCard> {
                           padding: const EdgeInsets.all(2),
                           child: Text(
                             widget.date,
+                            textScaleFactor: 1,
                             style: const TextStyle(color: Colors.black87),
                           ),
                         ),
@@ -99,6 +100,7 @@ class _SmallNewsCardState extends State<SmallNewsCard> {
                           padding: const EdgeInsets.all(2),
                           child: Text(
                             widget.time,
+                            textScaleFactor: 1,
                             style: const TextStyle(color: Colors.grey),
                           ),
                         ),

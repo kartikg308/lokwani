@@ -106,7 +106,7 @@ class _GalleryState extends State<Gallery> {
                   },
                   child: Image.network(
                     'https://admin.lokwani.in/' + images![index]['img_path'],
-                    filterQuality: FilterQuality.high,
+                    filterQuality: FilterQuality.none,
                     fit: BoxFit.cover,
                   ),
                 );
